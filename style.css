@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 25px;
+}
+
+form {
+    margin-top: 20px;
+  }
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+button {
+    margin: 10px; 
+    padding: 8px 16px; 
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+
+.form-buttons {
+    text-align: center;
+}
+
+
+.gender-label {
+    margin-right: 10px; 
+
+}
+.gender-radio {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
